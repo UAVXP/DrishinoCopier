@@ -207,25 +207,9 @@ namespace VMFPassThrough
 			return false;
 		}
 
-#if DEBUG
-	//	string g_fileName = @"D:\Steam\steamapps\common\GarrysMod\garrysmod\maps\trigger_test.vmf";
-	//	string g_fileName = @"D:\Steam\steamapps\common\SourceSDK\vpks\sourcesdk_content\hl2\mapsrc\sdk_d1_trainstation_04.vmf";
-	//	string g_fileName = @"D:\YandexDisk\Games\Garry's Mod\Student\maps\test_3.vmf";
-	//	string g_folderSourceName = @"D:\Steam\steamapps\common\GarrysMod\garrysmod";
-
-	//	string g_fileName = @"D:\AHL2_R\testmod\maps\crg.vmf";
-	//	string g_folderSourceName = @"D:\AHL2_R\testmod";
-	//	string g_folderDestName = @"D:\drishino_resources";
-		string g_fileName = @"D:\Downloads\games\BSPSource\maps\OldMaps\decompiled\cf_asteroidmine_d.vmf";
-		string g_folderSourceName = @"D:\Half-Life 2 Alpha\hl2";
-		string g_folderDestName = @"D:\LeakNetBuild\old_maps";
-#else
 		string g_fileName = "";
 		string g_folderSourceName = "";
 		string g_folderDestName = "";
-#endif
-	//	string g_folderSourceName = @"D:\Steam\steamapps\common\GarrysMod\garrysmod";
-	//	string g_folderDestName = @"D:\drishino_resources";
 
 		private void AddMaterialsFromModel(MDLReader mdlreader, string modpath, string value, out List<string> folders, out List<string> files, out int version)
 		{
