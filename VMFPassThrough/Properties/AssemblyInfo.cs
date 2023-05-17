@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VMFPassThrough")]
+[assembly: AssemblyTitle( "DrishinoCopier" )]
 [assembly: AssemblyDescription("Собирает список ресурсов из vmf-файла (исходника карт Source) и копирует их из заданного источника в указанную папку")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NutBucket")]
-[assembly: AssemblyProduct("VMFPassThrough")]
+[assembly: AssemblyProduct( "DrishinoCopier" )]
 [assembly: AssemblyCopyright("Copyright © NutBucket, 2017")]
 [assembly: AssemblyTrademark("NutBucket")]
 [assembly: AssemblyCulture("")]

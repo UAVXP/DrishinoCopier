@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace VMFPassThrough
+namespace DrishinoCopier
 {
 	public partial class frmAbout : Form
 	{

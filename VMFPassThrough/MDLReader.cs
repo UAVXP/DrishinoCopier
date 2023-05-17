@@ -5,7 +5,7 @@ using System.Text;
 
 using System.IO;
 
-namespace VMFPassThrough
+namespace DrishinoCopier
 {
 	class MDLReader
 	{

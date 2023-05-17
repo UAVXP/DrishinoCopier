@@ -1,4 +1,4 @@
-﻿namespace VMFPassThrough
+﻿namespace DrishinoCopier
 {
 	partial class frmAbout
 	{
@@ -79,7 +79,7 @@
 			// 
 			// pictureBox1
 			// 
-			this.pictureBox1.Image = global::VMFPassThrough.Properties.Resources.nutbucket_clipped;
+			this.pictureBox1.Image = global::DrishinoCopier.Properties.Resources.nutbucket_clipped;
 			this.pictureBox1.Location = new System.Drawing.Point(340, 12);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(68, 50);

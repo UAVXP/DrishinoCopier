@@ -15,7 +15,7 @@ using System.Globalization;
 using System.Threading;
 using System.Resources;
 
-namespace VMFPassThrough
+namespace DrishinoCopier
 {
 	public partial class frmMain : Form
 	{

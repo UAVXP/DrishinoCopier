@@ -1,4 +1,4 @@
-﻿namespace VMFPassThrough
+﻿namespace DrishinoCopier
 {
 	partial class frmMain
 	{
