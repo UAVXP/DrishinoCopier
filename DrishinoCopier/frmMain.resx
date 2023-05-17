@@ -130,11 +130,8 @@
   <data name="&gt;&gt;lbModels.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;folderBrowserDialog2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnSelectSourceFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tbDestFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
   </data>
   <data name="btnGenerateList.Location" type="System.Drawing.Point, System.Drawing">
     <value>555, 402</value>
@@ -142,8 +139,9 @@
   <data name="btnSelectSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
     <value>816, 89</value>
   </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tpMaterials.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tpModels.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -154,18 +152,11 @@
   <data name="cbCheckHL2Folder.Location" type="System.Drawing.Point, System.Drawing">
     <value>558, 89</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tbFilePath.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
   <data name="btnOpenFile.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="openFileDialog1.Filter" xml:space="preserve">
     <value>Valve Map File|*.vmf</value>
-  </data>
-  <data name="btnOpenFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
   </data>
   <data name="lbSounds.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -197,12 +188,11 @@
   <data name="&gt;&gt;btnOpenFile.Name" xml:space="preserve">
     <value>btnOpenFile</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="lblSourceFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 13</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbModels.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;tpMaterials.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cbCheckHL2Folder.Parent" xml:space="preserve">
     <value>$this</value>
@@ -210,26 +200,21 @@
   <data name="&gt;&gt;btnSelectSourceFolder.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblDestFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="&gt;&gt;tpMaterials.Parent" xml:space="preserve">
-    <value>tcResourceList</value>
+  <data name="&gt;&gt;lbMaterials.Name" xml:space="preserve">
+    <value>lbMaterials</value>
   </data>
-  <data name="&gt;&gt;lblSourceFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 12</value>
   </data>
-  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;btnSelectDestFolder.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnGenerateList.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
-  </data>
-  <data name="lblSourceFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 13</value>
-  </data>
-  <data name="&gt;&gt;btnOpenFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tpSounds.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -237,8 +222,11 @@
   <data name="lbMaterials.Size" type="System.Drawing.Size, System.Drawing">
     <value>520, 365</value>
   </data>
-  <data name="&gt;&gt;btnSelectDestFolder.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tcResourceList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 47</value>
+  </data>
+  <data name="btnGenerateList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 42</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
@@ -249,29 +237,35 @@
   <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmMain</value>
-  </data>
-  <data name="&gt;&gt;tcResourceList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tpMaterials.Parent" xml:space="preserve">
+    <value>tcResourceList</value>
   </data>
   <data name="cbCheckHL2Folder.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
+  <data name="lbSounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 371</value>
+  </data>
   <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
     <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="&gt;&gt;toolStripProgressBar1.Name" xml:space="preserve">
+    <value>toolStripProgressBar1</value>
   </data>
   <data name="&gt;&gt;lbModels.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;rtbLog.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnSelectDestFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>816, 178</value>
   </data>
-  <data name="&gt;&gt;lbMaterials.Name" xml:space="preserve">
-    <value>lbMaterials</value>
+  <data name="&gt;&gt;folderBrowserDialog2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tbDestFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="tbFilePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 14</value>
+  </data>
+  <data name="&gt;&gt;lbMaterials.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -300,17 +294,20 @@
   <data name="&gt;&gt;tbFilePath.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="tpMaterials.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="lblSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 47</value>
+  </data>
+  <data name="lbModels.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnSelectDestFolder.Text" xml:space="preserve">
+    <value>Открыть...</value>
   </data>
   <data name="&gt;&gt;tpSounds.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
-  </data>
-  <data name="lbMaterials.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;btnSelectDestFolder.Name" xml:space="preserve">
     <value>btnSelectDestFolder</value>
@@ -321,6 +318,9 @@
   <data name="toolStripStatusLabel1.Text" xml:space="preserve">
     <value>Готово</value>
   </data>
+  <data name="&gt;&gt;btnSelectDestFolder.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>903, 475</value>
   </data>
@@ -330,17 +330,17 @@
   <data name="lbModels.Size" type="System.Drawing.Size, System.Drawing">
     <value>520, 365</value>
   </data>
-  <data name="tpModels.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;btnAbout.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;tbDestFolder.Name" xml:space="preserve">
-    <value>tbDestFolder</value>
+  <data name="tpSounds.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
   </data>
   <data name="btnOpenFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="btnSelectDestFolder.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -351,8 +351,8 @@
   <data name="&gt;&gt;btnAbout.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="tcResourceList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 47</value>
+  <data name="tpModels.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;folderBrowserDialog2.Name" xml:space="preserve">
     <value>folderBrowserDialog2</value>
@@ -360,14 +360,14 @@
   <data name="&gt;&gt;btnOpenFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="tpModels.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="lbModels.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;lbSounds.Name" xml:space="preserve">
-    <value>lbSounds</value>
+  <data name="&gt;&gt;btnSelectSourceFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>843, 17</value>
@@ -380,6 +380,9 @@
   </data>
   <data name="&gt;&gt;tpMaterials.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="tcResourceList.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
   </data>
   <data name="lbMaterials.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -402,35 +405,20 @@
   <data name="lbSounds.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="tbFilePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 14</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
-  <data name="lbSounds.HorizontalScrollbar" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lbMaterials.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
-    <value>btnAbout</value>
-  </data>
-  <data name="&gt;&gt;lbMaterials.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;rtbLog.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;folderBrowserDialog1.Name" xml:space="preserve">
     <value>folderBrowserDialog1</value>
   </data>
   <data name="&gt;&gt;tbDestFolder.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="tpModels.Size" type="System.Drawing.Size, System.Drawing">
-    <value>526, 371</value>
-  </data>
-  <data name="toolStripProgressBar1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="tbDestFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 20</value>
   </data>
   <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve">
     <value>btnUpdate</value>
@@ -444,8 +432,14 @@
   <data name="btnUpdate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;btnSelectSourceFolder.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;btnAbout.Name" xml:space="preserve">
+    <value>btnAbout</value>
+  </data>
+  <data name="&gt;&gt;lbModels.Parent" xml:space="preserve">
+    <value>tpModels</value>
+  </data>
+  <data name="lbSounds.HorizontalScrollbar" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="tpMaterials.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -459,11 +453,11 @@
   <data name="tpModels.Text" xml:space="preserve">
     <value>Модели</value>
   </data>
-  <data name="&gt;&gt;btnCopy.Name" xml:space="preserve">
-    <value>btnCopy</value>
+  <data name="tpMaterials.Text" xml:space="preserve">
+    <value>Текстуры</value>
   </data>
-  <data name="tbSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 63</value>
+  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -480,6 +474,9 @@
   <data name="statusStrip1.Text" xml:space="preserve">
     <value>statusStrip1</value>
   </data>
+  <data name="lbModels.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="btnSelectSourceFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -491,6 +488,9 @@
   </data>
   <data name="cbCheckHL2Folder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="lblDestFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 136</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1404,8 +1404,8 @@
   <data name="&gt;&gt;rtbLog.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnAbout.Text" xml:space="preserve">
-    <value>About...</value>
+  <data name="&gt;&gt;tpSounds.Parent" xml:space="preserve">
+    <value>tcResourceList</value>
   </data>
   <data name="btnSelectSourceFolder.Text" xml:space="preserve">
     <value>Открыть...</value>
@@ -1443,8 +1443,8 @@
   <data name="&gt;&gt;tbFilePath.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lblSourceFolder.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;btnCopy.Name" xml:space="preserve">
+    <value>btnCopy</value>
   </data>
   <data name="cbCheckHL2Folder.Text" xml:space="preserve">
     <value>Проверять ещё и в основной папке (hl2)</value>
@@ -1452,8 +1452,8 @@
   <data name="lblSourceFolder.Text" xml:space="preserve">
     <value>Путь к папке с исходными файлами (garrysmod\garrysmod)</value>
   </data>
-  <data name="&gt;&gt;lblDestFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnOpenFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="btnOpenFile.Text" xml:space="preserve">
     <value>Открыть...</value>
@@ -1461,8 +1461,8 @@
   <data name="&gt;&gt;tbDestFolder.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;tpMaterials.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tbDestFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="&gt;&gt;tbFilePath.Name" xml:space="preserve">
     <value>tbFilePath</value>
@@ -1470,11 +1470,11 @@
   <data name="rtbLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;tpSounds.Parent" xml:space="preserve">
-    <value>tcResourceList</value>
+  <data name="&gt;&gt;lblDestFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tpMaterials.Text" xml:space="preserve">
-    <value>Текстуры</value>
+  <data name="&gt;&gt;lbSounds.Name" xml:space="preserve">
+    <value>lbSounds</value>
   </data>
   <data name="lbMaterials.HorizontalScrollbar" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1491,8 +1491,8 @@
   <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Просмотр</value>
+  <data name="&gt;&gt;lbModels.Name" xml:space="preserve">
+    <value>lbModels</value>
   </data>
   <data name="btnUpdate.Text" xml:space="preserve">
     <value>Обновить</value>
@@ -1500,8 +1500,8 @@
   <data name="&gt;&gt;tbSourceFolder.Name" xml:space="preserve">
     <value>tbSourceFolder</value>
   </data>
-  <data name="lblDestFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 136</value>
+  <data name="tbSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 63</value>
   </data>
   <data name="lblDestFolder.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1518,11 +1518,8 @@
   <data name="tpSounds.Size" type="System.Drawing.Size, System.Drawing">
     <value>526, 371</value>
   </data>
-  <data name="tpMaterials.Size" type="System.Drawing.Size, System.Drawing">
-    <value>526, 371</value>
-  </data>
-  <data name="&gt;&gt;toolStripProgressBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
   </data>
   <data name="btnAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 23</value>
@@ -1536,14 +1533,14 @@
   <data name="tpSounds.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="btnSelectDestFolder.Text" xml:space="preserve">
-    <value>Открыть...</value>
+  <data name="&gt;&gt;btnOpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>826, 7</value>
   </data>
-  <data name="&gt;&gt;lbModels.Parent" xml:space="preserve">
-    <value>tpModels</value>
+  <data name="&gt;&gt;tcResourceList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnGenerateList.Name" xml:space="preserve">
     <value>btnGenerateList</value>
@@ -1587,11 +1584,11 @@
   <data name="btnSelectSourceFolder.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;lbModels.Name" xml:space="preserve">
-    <value>lbModels</value>
+  <data name="tpMaterials.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 371</value>
   </data>
-  <data name="lblSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 47</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Просмотр</value>
   </data>
   <data name="lbMaterials.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
@@ -1605,17 +1602,14 @@
   <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
     <value>backgroundWorker1</value>
   </data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="lblSourceFolder.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="toolStripProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 16</value>
-  </data>
-  <data name="&gt;&gt;btnAbout.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripProgressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
     <value>toolStripStatusLabel1</value>
@@ -1623,11 +1617,11 @@
   <data name="&gt;&gt;btnOpenFile.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="lbSounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>526, 371</value>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tbDestFolder.Name" xml:space="preserve">
+    <value>tbDestFolder</value>
   </data>
   <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
     <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1635,23 +1629,23 @@
   <data name="rtbLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>555, 207</value>
   </data>
-  <data name="&gt;&gt;toolStripProgressBar1.Name" xml:space="preserve">
-    <value>toolStripProgressBar1</value>
+  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="tbSourceFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="btnSelectDestFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>816, 178</value>
+  <data name="&gt;&gt;lblSourceFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
-  <data name="&gt;&gt;btnSelectDestFolder.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="tbFilePath.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
-  <data name="tcResourceList.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+  <data name="toolStripProgressBar1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>735, 178</value>
@@ -1674,11 +1668,11 @@
   <data name="btnCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 42</value>
   </data>
-  <data name="btnGenerateList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 42</value>
+  <data name="&gt;&gt;btnSelectSourceFolder.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>686, 12</value>
+  <data name="tpModels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>526, 371</value>
   </data>
   <data name="&gt;&gt;tbSourceFolder.Parent" xml:space="preserve">
     <value>$this</value>
@@ -1688,6 +1682,9 @@
   </data>
   <data name="&gt;&gt;tpMaterials.Name" xml:space="preserve">
     <value>tpMaterials</value>
+  </data>
+  <data name="toolStripProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
   </data>
   <data name="&gt;&gt;lblDestFolder.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -1701,11 +1698,14 @@
   <data name="&gt;&gt;btnGenerateList.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="tpSounds.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="btnAbout.Text" xml:space="preserve">
+    <value>About...</value>
   </data>
   <data name="tbFilePath.Size" type="System.Drawing.Size, System.Drawing">
     <value>587, 20</value>
+  </data>
+  <data name="lblSourceFolder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>en</value>
@@ -1713,19 +1713,19 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>495, 17</value>
   </metadata>
-  <metadata name="folderBrowserDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>326, 17</value>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 17</value>
   </metadata>
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>157, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>611, 17</value>
+  </metadata>
+  <metadata name="folderBrowserDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>326, 17</value>
   </metadata>
 </root>
