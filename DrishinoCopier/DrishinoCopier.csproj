@@ -120,7 +120,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="nutbucket_clipped.ico" />
-    <Content Include="TODO.txt" />
     <None Include="Resources\nutbucket_clipped.png" />
   </ItemGroup>
   <ItemGroup>
