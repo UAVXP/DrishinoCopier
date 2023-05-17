@@ -438,13 +438,13 @@ namespace DrishinoCopier
 			tbDestFolder.Text = g_folderDestName;
 
 #if DEBUG
-			openFileDialog1.InitialDirectory = Path.GetDirectoryName(g_fileName);
+			if ( !String.IsNullOrWhiteSpace(g_fileName) )
+				openFileDialog1.InitialDirectory = Path.GetDirectoryName(g_fileName);
 			folderBrowserDialog1.SelectedPath = g_folderSourceName;
 			folderBrowserDialog2.SelectedPath = g_folderDestName;
 
 			LoadMapFile();
 #endif
-		//	Console.WriteLine("New Machine ID: " + NewSecurity.GetMachineID());
 		}
 
 		private void button4_Click(object sender, EventArgs e)
