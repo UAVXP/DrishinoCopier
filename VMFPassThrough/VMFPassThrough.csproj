@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -10,8 +10,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>VMFPassThrough</RootNamespace>
     <AssemblyName>VMFPassThrough</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -38,6 +39,7 @@
     <DefineConstants>TRACE;DEBUG;PUBLIC</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -47,6 +49,7 @@
     <DefineConstants>TRACE;PUBLIC</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>nutbucket_clipped.ico</ApplicationIcon>
@@ -157,7 +160,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Reactor_Enabled="1" Reactor_Commands="" Reactor_Project="C:\Users\VXP\Documents\Visual Studio 2010\Projects\VMFPassThrough\VMFPassThrough\Resources\vmfpassthrough.nrproj" Reactor_Configuration="Release" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Deploy="0" />
+      <UserProperties Reactor_Deploy="0" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Configuration="Release" Reactor_Project="C:\Users\VXP\Documents\Visual Studio 2010\Projects\VMFPassThrough\VMFPassThrough\Resources\vmfpassthrough.nrproj" Reactor_Commands="" Reactor_Enabled="1" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
