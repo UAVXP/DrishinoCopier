@@ -68,9 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsrctOne.cs" />
     <Compile Include="Asset.cs" />
-    <Compile Include="NewSecurity.cs" />
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,16 +81,9 @@
     <Compile Include="frmAbout.Designer.cs">
       <DependentUpon>frmAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCode.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCode.Designer.cs">
-      <DependentUpon>frmCode.cs</DependentUpon>
-    </Compile>
     <Compile Include="MDLReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Security.cs" />
     <EmbeddedResource Include="frmMain.en.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,9 +93,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAbout.resx">
       <DependentUpon>frmAbout.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCode.resx">
-      <DependentUpon>frmCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.ru.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -160,7 +148,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Reactor_Deploy="0" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Configuration="Release" Reactor_Project="C:\Users\VXP\Documents\Visual Studio 2010\Projects\VMFPassThrough\VMFPassThrough\Resources\vmfpassthrough.nrproj" Reactor_Commands="" Reactor_Enabled="1" />
+      <UserProperties Reactor_Enabled="1" Reactor_Commands="" Reactor_Project="C:\Users\VXP\Documents\Visual Studio 2010\Projects\VMFPassThrough\VMFPassThrough\Resources\vmfpassthrough.nrproj" Reactor_Configuration="Release" Reactor_Output="&lt;AssemblyLocation&gt;\&lt;AssemblyFileName&gt;" Reactor_Deploy="0" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

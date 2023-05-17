@@ -20,19 +20,5 @@ namespace VMFPassThrough
 		{
 			this.Close();
 		}
-
-		private void FrmAbout_KeyDown(object sender, KeyEventArgs e)
-		{
-			if (e.Control && e.KeyCode == Keys.T)
-			{
-				frmCode codegen = new frmCode();
-				codegen.ShowDialog();
-			}
-		/*	if (e.Modifiers == Keys.Control && e.KeyCode == Keys.T)
-			{
-				frmCode codegen = new frmCode();
-				codegen.ShowDialog();
-			}*/
-		}
 	}
 }
