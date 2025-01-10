@@ -130,8 +130,8 @@
   <data name="&gt;&gt;lbModels.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tbDestFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>336, 20</value>
+  <data name="&gt;&gt;btnSelectSourceFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnGenerateList.Location" type="System.Drawing.Point, System.Drawing">
     <value>555, 402</value>
@@ -142,6 +142,9 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tpMaterials.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
   </data>
   <data name="&gt;&gt;tpModels.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -248,9 +251,6 @@
   </data>
   <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
     <value>toolStripStatusLabel2</value>
-  </data>
-  <data name="&gt;&gt;toolStripProgressBar1.Name" xml:space="preserve">
-    <value>toolStripProgressBar1</value>
   </data>
   <data name="&gt;&gt;lbModels.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -360,20 +360,20 @@
   <data name="&gt;&gt;btnOpenFile.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="tpModels.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="&gt;&gt;btnSelectSourceFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lbModels.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>843, 17</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Дрищино-копир - NutBucket</value>
+  </data>
+  <data name="&gt;&gt;lblDestFolder.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="folderBrowserDialog1.Description" xml:space="preserve">
     <value>Путь к папке с исходными файлами (garrysmod\garrysmod)</value>
@@ -456,8 +456,8 @@
   <data name="tpMaterials.Text" xml:space="preserve">
     <value>Текстуры</value>
   </data>
-  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="tbSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 63</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -474,9 +474,6 @@
   <data name="statusStrip1.Text" xml:space="preserve">
     <value>statusStrip1</value>
   </data>
-  <data name="lbModels.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="btnSelectSourceFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -488,9 +485,6 @@
   </data>
   <data name="cbCheckHL2Folder.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="lblDestFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 136</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1404,9 +1398,6 @@
   <data name="&gt;&gt;rtbLog.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tpSounds.Parent" xml:space="preserve">
-    <value>tcResourceList</value>
-  </data>
   <data name="btnSelectSourceFolder.Text" xml:space="preserve">
     <value>Открыть...</value>
   </data>
@@ -1470,8 +1461,8 @@
   <data name="rtbLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;lblDestFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tpSounds.Parent" xml:space="preserve">
+    <value>tcResourceList</value>
   </data>
   <data name="&gt;&gt;lbSounds.Name" xml:space="preserve">
     <value>lbSounds</value>
@@ -1488,6 +1479,9 @@
   <data name="&gt;&gt;button1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;lblDestFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1500,8 +1494,8 @@
   <data name="&gt;&gt;tbSourceFolder.Name" xml:space="preserve">
     <value>tbSourceFolder</value>
   </data>
-  <data name="tbSourceFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>555, 63</value>
+  <data name="lblDestFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 136</value>
   </data>
   <data name="lblDestFolder.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -1518,8 +1512,8 @@
   <data name="tpSounds.Size" type="System.Drawing.Size, System.Drawing">
     <value>526, 371</value>
   </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
+  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 23</value>
@@ -1527,8 +1521,8 @@
   <data name="&gt;&gt;lbMaterials.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btnCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="tbDestFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 20</value>
   </data>
   <data name="tpSounds.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -1620,8 +1614,8 @@
   <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;tbDestFolder.Name" xml:space="preserve">
-    <value>tbDestFolder</value>
+  <data name="&gt;&gt;btnAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
     <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1629,8 +1623,8 @@
   <data name="rtbLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>555, 207</value>
   </data>
-  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripProgressBar1.Name" xml:space="preserve">
+    <value>toolStripProgressBar1</value>
   </data>
   <data name="tbSourceFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -1643,6 +1637,9 @@
   </data>
   <data name="tbFilePath.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="toolStripProgressBar1.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1674,6 +1671,9 @@
   <data name="tpModels.Size" type="System.Drawing.Size, System.Drawing">
     <value>526, 371</value>
   </data>
+  <data name="&gt;&gt;tbDestFolder.Name" xml:space="preserve">
+    <value>tbDestFolder</value>
+  </data>
   <data name="&gt;&gt;tbSourceFolder.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -1686,8 +1686,8 @@
   <data name="toolStripProgressBar1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
   </data>
-  <data name="&gt;&gt;lblDestFolder.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="btnCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;tcResourceList.Name" xml:space="preserve">
     <value>tcResourceList</value>
