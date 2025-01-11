@@ -36,6 +36,16 @@ namespace DrishinoCopier
 			}
 		}
 
+		private void button2_Click_1( object sender, EventArgs e )
+		{
+			ChangeLanguage( "en" );
+		}
+
+		private void button3_Click_1( object sender, EventArgs e )
+		{
+			ChangeLanguage( "ru" );
+		}
+
 		private void Log_Print(string text)
 		{
 			int start = rtbLog.SelectionStart;

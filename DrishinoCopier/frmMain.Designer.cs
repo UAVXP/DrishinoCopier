@@ -59,6 +59,8 @@
 			this.button1 = new System.Windows.Forms.Button();
 			this.rtbLog = new System.Windows.Forms.RichTextBox();
 			this.btnGenerateList = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
+			this.button3 = new System.Windows.Forms.Button();
 			this.statusStrip1.SuspendLayout();
 			this.tcResourceList.SuspendLayout();
 			this.tpMaterials.SuspendLayout();
@@ -174,30 +176,30 @@
 			// 
 			// statusStrip1
 			// 
-			resources.ApplyResources(this.statusStrip1, "statusStrip1");
 			this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.toolStripStatusLabel2,
             this.toolStripProgressBar1});
+			resources.ApplyResources(this.statusStrip1, "statusStrip1");
 			this.statusStrip1.Name = "statusStrip1";
 			this.statusStrip1.SizingGrip = false;
 			// 
 			// toolStripStatusLabel1
 			// 
-			resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
 			this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+			resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
 			// 
 			// toolStripStatusLabel2
 			// 
-			resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
 			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+			resources.ApplyResources(this.toolStripStatusLabel2, "toolStripStatusLabel2");
 			this.toolStripStatusLabel2.Spring = true;
 			// 
 			// toolStripProgressBar1
 			// 
-			resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
 			this.toolStripProgressBar1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
 			this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+			resources.ApplyResources(this.toolStripProgressBar1, "toolStripProgressBar1");
 			// 
 			// backgroundWorker1
 			// 
@@ -225,22 +227,22 @@
 			// 
 			// tpMaterials
 			// 
-			resources.ApplyResources(this.tpMaterials, "tpMaterials");
 			this.tpMaterials.Controls.Add(this.lbMaterials);
+			resources.ApplyResources(this.tpMaterials, "tpMaterials");
 			this.tpMaterials.Name = "tpMaterials";
 			this.tpMaterials.UseVisualStyleBackColor = true;
 			// 
 			// tpModels
 			// 
-			resources.ApplyResources(this.tpModels, "tpModels");
 			this.tpModels.Controls.Add(this.lbModels);
+			resources.ApplyResources(this.tpModels, "tpModels");
 			this.tpModels.Name = "tpModels";
 			this.tpModels.UseVisualStyleBackColor = true;
 			// 
 			// tpSounds
 			// 
-			resources.ApplyResources(this.tpSounds, "tpSounds");
 			this.tpSounds.Controls.Add(this.lbSounds);
+			resources.ApplyResources(this.tpSounds, "tpSounds");
 			this.tpSounds.Name = "tpSounds";
 			this.tpSounds.UseVisualStyleBackColor = true;
 			// 
@@ -265,10 +267,26 @@
 			this.btnGenerateList.UseVisualStyleBackColor = true;
 			this.btnGenerateList.Click += new System.EventHandler(this.btnGenerateList_Click);
 			// 
+			// button2
+			// 
+			resources.ApplyResources(this.button2, "button2");
+			this.button2.Name = "button2";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.button2_Click_1);
+			// 
+			// button3
+			// 
+			resources.ApplyResources(this.button3, "button3");
+			this.button3.Name = "button3";
+			this.button3.UseVisualStyleBackColor = true;
+			this.button3.Click += new System.EventHandler(this.button3_Click_1);
+			// 
 			// frmMain
 			// 
 			resources.ApplyResources(this, "$this");
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.button3);
+			this.Controls.Add(this.button2);
 			this.Controls.Add(this.btnGenerateList);
 			this.Controls.Add(this.rtbLog);
 			this.Controls.Add(this.button1);
@@ -332,6 +350,8 @@
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.RichTextBox rtbLog;
 		private System.Windows.Forms.Button btnGenerateList;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button button3;
 	}
 }
 
